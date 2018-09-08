@@ -23,5 +23,6 @@ public static void main(String[] args) {
     }
     else
        System.out.println(text + " is not a palindrome, try again :-) ");
+   in.close();
 }
 }
