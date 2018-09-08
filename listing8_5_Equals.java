@@ -3,7 +3,7 @@ public class Test {
   public static void main(String[] args) {
     int[] numbers = {1, 2, 3, 4, 5, 6, 7};
     int[] numbers2 = {2, 3, 4, 5, 6, 7, 8};
-    if(numbers.equals(numbers2))   //#A
+    if(Arrays.equals(numbers,numbers2))   //#A
       System.out.println("The two arrays are equal! ");
     else
       System.out.println("The two arrays are not equal! ");
