@@ -4,7 +4,7 @@ public static void main(String[] args) {
    Scanner in = new Scanner(System.in);
    boolean isPalindrome = true;
    StringBuilder text = new StringBuilder();
-   System.out.print("Enter a sentence/word and I will test to see if it is a" +  
+   System.out.print("Enter a sentence/word and I will test to see if it is a" 
        + " palindrome: ");
    String input = in.nextLine();
    text.append(input);
