@@ -36,14 +36,14 @@ public class Vehicle implements VehicleInterface, Comparable{   //#A
             return 1;                                             //#B
     }
     public static void main(String[] args) {
-    VehicleInterface v1 = new Vehicle();       
+    Vehicle v1 = new Vehicle();       
     v1.setMake("Chevy");
        v1.setModel("Cruze");
     v1.setYear(2018);      
-    VehicleInterface v2 = new Vehicle();       
-    v1.setMake("Chevy");
+    Vehicle v2 = new Vehicle();       
+    v2.setMake("Chevy");
        v1.setModel("Cruze");
-    v1.setYear(2017);      
+    v2.setYear(2017);      
        
        if(v1.compareTo(v2) == 0)                                //#C
            System.out.println("These vehicles are the same");   //#C
